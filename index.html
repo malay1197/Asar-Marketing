@@ -1,0 +1,1394 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asar Marketing | Marketing That Makes an Impact</title>
+    <meta name="description" content="Asar Marketing is a digital marketing agency founded by Malay Patel, helping businesses build stronger brands, reach the right audience and create meaningful growth.">
+    <meta name="author" content="Malay Patel">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph Metadata -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Asar Marketing | Marketing That Makes an Impact">
+    <meta property="og:description" content="Asar Marketing helps ambitious businesses build stronger brands, reach the right audience and turn attention into meaningful business growth. Founded by Malay Patel.">
+    <meta property="og:site_name" content="ASAR MARKETING">
+    <meta property="og:url" content="https://asar-marketing.com">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>">
+
+    <!-- Fonts: Plus Jakarta Sans & Cormorant Garamond & Syne -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS CDN for utility classes -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Custom Tailwind Configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            bg: '#FBF9F5',          /* Warm Ivory / Off-White */
+                            surface: '#FFFFFF',     /* Pure White */
+                            soft: '#F4EFEA',        /* Soft Beige */
+                            dark: '#141414',        /* Charcoal / Near Black */
+                            muted: '#5A5955',       /* Editorial Muted Text */
+                            accent: '#C5A059',      /* Champagne Gold Accent */
+                            accentHover: '#B08C45', /* Darker Champagne Gold */
+                            goldLight: '#F7F3E9',   /* Delicate Gold Tint */
+                            border: '#E8E3DA'       /* Soft Border */
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                        heading: ['Syne', 'Plus Jakarta Sans', 'sans-serif'],
+                        serif: ['Cormorant Garamond', 'serif']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Custom Styling -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "ASAR MARKETING",
+      "image": "",
+      "url": "https://asar-marketing.com",
+      "telephone": "+917016425394",
+      "email": "malaypatel0092@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "IN"
+      },
+      "founder": {
+        "@type": "Person",
+        "name": "Malay Patel",
+        "jobTitle": "Founder & Director"
+      },
+      "description": "Asar Marketing is a digital marketing agency founded by Malay Patel, helping businesses build stronger brands, reach the right audience and create meaningful growth.",
+      "slogan": "Marketing That Makes an Impact."
+    }
+    </script>
+</head>
+<body class="bg-brand-bg text-brand-dark font-sans antialiased selection:bg-brand-accent selection:text-white leading-relaxed">
+
+    <!-- Header / Navigation -->
+    <header id="main-header" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-brand-bg/90 backdrop-blur-md border-b border-brand-border/60">
+        <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 h-20 flex items-center justify-between">
+            <!-- Brand Logo -->
+            <a href="#home" class="flex items-center gap-3 group">
+                <span class="w-8 h-8 rounded-full border border-brand-accent/40 flex items-center justify-center text-brand-accent text-xs font-heading font-bold group-hover:border-brand-accent transition-colors">✦</span>
+                <span class="font-heading font-extrabold text-xl sm:text-2xl tracking-tight text-brand-dark group-hover:text-brand-accent transition-colors">
+                    ASAR<span class="text-brand-accent font-light ml-1.5 text-lg">MARKETING</span>
+                </span>
+            </a>
+
+            <!-- Desktop Navigation Links -->
+            <nav class="hidden md:flex items-center gap-8 text-sm font-medium tracking-wide">
+                <a href="#home" class="nav-link text-brand-dark hover:text-brand-accent transition-colors py-1">Home</a>
+                <a href="#about" class="nav-link text-brand-dark hover:text-brand-accent transition-colors py-1">About</a>
+                <a href="#services" class="nav-link text-brand-dark hover:text-brand-accent transition-colors py-1">Services</a>
+                <a href="#work" class="nav-link text-brand-dark hover:text-brand-accent transition-colors py-1">Work</a>
+                <a href="#process" class="nav-link text-brand-dark hover:text-brand-accent transition-colors py-1">Process</a>
+                <a href="#founder" class="nav-link text-brand-dark hover:text-brand-accent transition-colors py-1">Founder</a>
+                <a href="#contact" class="nav-link text-brand-dark hover:text-brand-accent transition-colors py-1">Contact</a>
+            </nav>
+
+            <!-- Desktop Right CTA -->
+            <div class="hidden md:flex items-center gap-4">
+                <a href="#contact" class="btn-primary inline-flex items-center justify-center px-6 py-2.5 rounded-full bg-brand-dark text-white font-medium text-sm hover:bg-brand-accent transition-all duration-300 shadow-sm hover:shadow-md">
+                    Start a Project
+                    <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                </a>
+            </div>
+
+            <!-- Mobile Hamburger Button -->
+            <button id="mobile-menu-btn" class="md:hidden p-2 rounded-lg text-brand-dark focus:outline-none" aria-label="Toggle Navigation Menu">
+                <svg id="menu-icon-open" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+                <svg id="menu-icon-close" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+            </button>
+        </div>
+
+        <!-- Mobile Drawer Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-brand-bg/98 border-b border-brand-border px-6 py-6 transition-all">
+            <nav class="flex flex-col gap-4 text-base font-medium">
+                <a href="#home" class="mobile-nav-link text-brand-dark py-2 border-b border-brand-border/40">Home</a>
+                <a href="#about" class="mobile-nav-link text-brand-dark py-2 border-b border-brand-border/40">About</a>
+                <a href="#services" class="mobile-nav-link text-brand-dark py-2 border-b border-brand-border/40">Services</a>
+                <a href="#work" class="mobile-nav-link text-brand-dark py-2 border-b border-brand-border/40">Work</a>
+                <a href="#process" class="mobile-nav-link text-brand-dark py-2 border-b border-brand-border/40">Process</a>
+                <a href="#founder" class="mobile-nav-link text-brand-dark py-2 border-b border-brand-border/40">Founder</a>
+                <a href="#contact" class="mobile-nav-link text-brand-dark py-2 border-b border-brand-border/40">Contact</a>
+                <div class="pt-2 flex flex-col gap-3">
+                    <a href="#contact" class="w-full py-3 rounded-full bg-brand-dark text-white font-medium text-center text-sm">
+                        Start a Project
+                    </a>
+                    <a href="https://wa.me/917016425394" target="_blank" class="w-full py-3 rounded-full border border-brand-dark text-brand-dark font-medium text-center text-sm flex items-center justify-center gap-2">
+                        <span>WhatsApp Us</span>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="pt-20">
+        <!-- 5. HERO SECTION -->
+        <section id="home" class="relative min-h-[90vh] flex items-center pt-12 pb-20 overflow-hidden">
+            <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 w-full grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+                <!-- Hero Text Column -->
+                <div class="lg:col-span-7 space-y-8 reveal-on-scroll">
+                    <!-- Brand Statement Pill -->
+                    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-brand-goldLight border border-brand-accent/30 text-xs font-semibold tracking-widest text-brand-dark uppercase">
+                        <span class="w-1.5 h-1.5 rounded-full bg-brand-accent"></span>
+                        STRATEGY × CREATIVITY × GROWTH
+                    </div>
+
+                    <!-- Main Headline -->
+                    <h1 class="font-heading font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight text-brand-dark leading-[1.12]">
+                        We Create Marketing That Makes an <span class="font-serif italic font-normal text-brand-accent border-b-2 border-brand-accent/30 pb-0.5">Impact.</span>
+                    </h1>
+
+                    <!-- Supporting Text -->
+                    <p class="text-lg sm:text-xl text-brand-muted font-normal max-w-2xl leading-relaxed">
+                        Asar Marketing helps ambitious businesses build stronger brands, reach the right audience and turn attention into meaningful business growth.
+                    </p>
+
+                    <!-- CTAs -->
+                    <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-2">
+                        <a href="#contact" class="px-8 py-4 rounded-full bg-brand-dark text-white font-semibold text-base hover:bg-brand-accent transition-all duration-300 shadow-md hover:shadow-lg text-center flex items-center justify-center gap-3 group">
+                            <span>Start a Project</span>
+                            <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                        </a>
+                        <a href="#work" class="px-8 py-4 rounded-full border border-brand-dark/20 text-brand-dark font-medium text-base hover:border-brand-dark hover:bg-brand-soft transition-all duration-300 text-center">
+                            Explore Our Work
+                        </a>
+                    </div>
+
+                    <!-- Trust Bar / Key Highlights -->
+                    <div class="pt-8 border-t border-brand-border/80 grid grid-cols-3 gap-4 text-xs font-medium text-brand-muted uppercase tracking-wider">
+                        <div>
+                            <span class="block text-brand-dark font-bold text-sm">Strategic</span>
+                            First Approach
+                        </div>
+                        <div>
+                            <span class="block text-brand-dark font-bold text-sm">Purposeful</span>
+                            Creative Assets
+                        </div>
+                        <div>
+                            <span class="block text-brand-dark font-bold text-sm">Measurable</span>
+                            Business Outcomes
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hero Visual Column: Premium Editorial Composition -->
+                <div class="lg:col-span-5 relative reveal-on-scroll">
+                    <div class="relative mx-auto max-w-md lg:max-w-none">
+                        <!-- Background Decorative Frame -->
+                        <div class="absolute -inset-4 bg-brand-soft rounded-2xl transform -rotate-1 border border-brand-border/60"></div>
+                        
+                        <!-- Main Frame -->
+                        <div class="relative bg-brand-surface p-8 sm:p-10 rounded-2xl shadow-xl border border-brand-border space-y-6">
+                            <!-- Agency Badge Header -->
+                            <div class="flex justify-between items-center pb-6 border-b border-brand-border">
+                                <div>
+                                    <span class="text-xs uppercase font-semibold text-brand-accent tracking-widest block">ASAR AGENCY DIRECTORY</span>
+                                    <h3 class="font-heading font-bold text-xl text-brand-dark">ASAR MARKETING</h3>
+                                </div>
+                                <div class="w-10 h-10 rounded-full bg-brand-goldLight flex items-center justify-center text-brand-accent font-bold">✦</div>
+                            </div>
+
+                            <!-- Editorial Graphic Card -->
+                            <div class="space-y-4">
+                                <div class="p-5 bg-brand-bg rounded-xl border border-brand-border/80 space-y-2">
+                                    <div class="flex items-center justify-between text-xs text-brand-muted uppercase tracking-wider font-semibold">
+                                        <span>THE ASAR FORMULA</span>
+                                        <span class="text-brand-accent">01 // BRAND IMPACT</span>
+                                    </div>
+                                    <p class="font-serif italic text-2xl text-brand-dark">“Attention is temporary. Impact is remembered.”</p>
+                                </div>
+
+                                <div class="grid grid-cols-2 gap-3">
+                                    <div class="p-4 bg-brand-soft/60 rounded-xl border border-brand-border/60">
+                                        <span class="text-2xl font-bold font-heading text-brand-dark block">100%</span>
+                                        <span class="text-xs font-medium text-brand-muted uppercase tracking-wider">Tailored Strategy</span>
+                                    </div>
+                                    <div class="p-4 bg-brand-dark text-white rounded-xl">
+                                        <span class="text-2xl font-bold font-heading text-brand-accent block">FOUNDER</span>
+                                        <span class="text-xs font-medium text-gray-300 uppercase tracking-wider">Malay Patel</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Footer Tagline -->
+                            <div class="pt-4 flex items-center justify-between text-xs font-semibold text-brand-muted uppercase tracking-widest border-t border-brand-border">
+                                <span>MARKETING THAT MAKES AN IMPACT</span>
+                                <span class="text-brand-dark">EST. 2026</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. BRAND STATEMENT SECTION -->
+        <section class="py-24 bg-brand-surface border-y border-brand-border relative">
+            <div class="max-w-5xl mx-auto px-6 sm:px-8 text-center space-y-8 reveal-on-scroll">
+                <span class="text-xs font-bold uppercase tracking-widest text-brand-accent bg-brand-goldLight px-4 py-1.5 rounded-full inline-block">
+                    OUR CORE PHILOSOPHY
+                </span>
+                
+                <h2 class="font-heading font-extrabold text-3xl sm:text-5xl lg:text-6xl text-brand-dark leading-tight">
+                    Attention is temporary.<br>
+                    <span class="font-serif italic font-normal text-brand-accent">Impact is remembered.</span>
+                </h2>
+
+                <div class="w-16 h-0.5 bg-brand-accent mx-auto"></div>
+
+                <p class="text-xl sm:text-2xl font-light text-brand-muted max-w-2xl mx-auto leading-relaxed">
+                    That is the philosophy behind Asar Marketing.
+                </p>
+            </div>
+        </section>
+
+        <!-- 7. ABOUT ASAR MARKETING -->
+        <section id="about" class="py-28 bg-brand-bg relative">
+            <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+                    <!-- Left Editorial Graphic -->
+                    <div class="lg:col-span-5 reveal-on-scroll">
+                        <div class="relative p-8 bg-brand-surface rounded-2xl border border-brand-border shadow-lg space-y-6">
+                            <div class="w-12 h-12 rounded-full bg-brand-goldLight flex items-center justify-center text-brand-accent text-xl font-bold">
+                                ✦
+                            </div>
+                            <div class="space-y-3">
+                                <span class="text-xs uppercase font-bold text-brand-accent tracking-widest">DEFINING ASAR</span>
+                                <h3 class="font-serif italic text-3xl text-brand-dark">/ˈɑː.sɑːr/</h3>
+                                <p class="text-sm text-brand-muted leading-relaxed font-mono bg-brand-soft/60 p-4 rounded-lg">
+                                    Noun (Hindi / Gujarati): Impact, Influence, Impression.<br>
+                                    <span class="text-brand-dark font-medium italic">"The long-lasting effect created by meaningful action."</span>
+                                </p>
+                            </div>
+                            <div class="pt-4 border-t border-brand-border space-y-2">
+                                <div class="flex justify-between text-xs font-bold text-brand-dark">
+                                    <span>VIEWS & LIKES</span>
+                                    <span class="text-brand-muted">TEMPORARY</span>
+                                </div>
+                                <div class="w-full bg-brand-soft h-2 rounded-full overflow-hidden">
+                                    <div class="bg-brand-muted h-full w-2/5"></div>
+                                </div>
+
+                                <div class="flex justify-between text-xs font-bold text-brand-dark pt-2">
+                                    <span>ASAR (IMPACT & TRUST)</span>
+                                    <span class="text-brand-accent">PERMANENT</span>
+                                </div>
+                                <div class="w-full bg-brand-soft h-2 rounded-full overflow-hidden">
+                                    <div class="bg-brand-accent h-full w-full"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Text Column -->
+                    <div class="lg:col-span-7 space-y-6 reveal-on-scroll">
+                        <span class="text-xs font-bold uppercase tracking-widest text-brand-accent">ABOUT ASAR MARKETING</span>
+                        
+                        <h2 class="font-heading font-extrabold text-3xl sm:text-4xl lg:text-5xl text-brand-dark leading-tight">
+                            More Than Marketing. <br>
+                            <span class="font-serif italic font-normal text-brand-accent">We Create Asar.</span>
+                        </h2>
+
+                        <div class="space-y-5 text-brand-muted text-base sm:text-lg leading-relaxed font-normal">
+                            <p>
+                                <strong class="text-brand-dark font-semibold">Asar means impact.</strong> At Asar Marketing, we believe marketing is not simply about getting views, likes or followers. Great marketing creates an impression, builds trust and influences decisions.
+                            </p>
+                            <p>
+                                We combine strategic thinking, creative execution and performance-focused marketing to help businesses become more visible, more memorable and more valuable.
+                            </p>
+                            <p>
+                                We work side-by-side with ambitious business owners who want more than routine social media posts — they want a dedicated growth partner focused on real business outcomes.
+                            </p>
+                        </div>
+
+                        <!-- Highlights Grid -->
+                        <div class="pt-6 grid grid-cols-1 sm:grid-cols-3 gap-6 border-t border-brand-border">
+                            <div>
+                                <span class="block text-2xl font-bold font-heading text-brand-dark">Strategy</span>
+                                <span class="text-xs text-brand-muted uppercase font-medium">Business-First Thinking</span>
+                            </div>
+                            <div>
+                                <span class="block text-2xl font-bold font-heading text-brand-dark">Creativity</span>
+                                <span class="text-xs text-brand-muted uppercase font-medium">Purposeful Assets</span>
+                            </div>
+                            <div>
+                                <span class="block text-2xl font-bold font-heading text-brand-dark">Performance</span>
+                                <span class="text-xs text-brand-muted uppercase font-medium">Measurable Outcomes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. FOUNDER SECTION -->
+        <section id="founder" class="py-28 bg-brand-surface border-y border-brand-border relative">
+            <div class="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12 text-center space-y-10 reveal-on-scroll">
+                <div class="space-y-3">
+                    <span class="text-xs font-bold uppercase tracking-widest text-brand-accent bg-brand-goldLight px-4 py-1.5 rounded-full inline-block">
+                        LEADERSHIP & VISION
+                    </span>
+                    <h2 class="font-heading font-extrabold text-3xl sm:text-5xl text-brand-dark mt-2">
+                        Meet the Founder
+                    </h2>
+                </div>
+
+                <div class="space-y-2">
+                    <span class="text-xs font-bold text-brand-accent tracking-widest uppercase block">FOUNDER & DIRECTOR — ASAR MARKETING</span>
+                    <h3 class="font-heading font-extrabold text-3xl sm:text-4xl text-brand-dark">
+                        Malay Patel
+                    </h3>
+                </div>
+
+                <div class="space-y-6 text-brand-muted text-lg sm:text-xl leading-relaxed max-w-3xl mx-auto font-normal">
+                    <p>
+                        <strong class="text-brand-dark font-semibold">Asar Marketing was founded by Malay Patel</strong> with a simple belief: businesses deserve marketing that creates real impact, not just noise.
+                    </p>
+                    <p>
+                        With a focus on modern digital marketing, creative communication and business growth, Malay is building Asar Marketing as a result-oriented agency designed to help ambitious businesses strengthen their presence and connect with the people who matter.
+                    </p>
+                </div>
+
+                <!-- Founder Personal Quote Card -->
+                <div class="p-8 sm:p-10 bg-brand-bg rounded-2xl border-l-4 border-brand-accent border border-brand-border space-y-4 text-left max-w-3xl mx-auto shadow-sm">
+                    <p class="font-serif italic text-2xl text-brand-dark leading-relaxed">
+                        “I started Asar Marketing with one simple idea — marketing should create an impact that goes beyond numbers. It should make a business more visible, more memorable and more valuable.”
+                    </p>
+                    <div class="flex items-center justify-between pt-3 border-t border-brand-border/60">
+                        <span class="font-serif text-2xl italic text-brand-dark font-semibold tracking-wider">Malay Patel</span>
+                        <span class="text-xs text-brand-muted uppercase tracking-widest font-semibold">Founder & Director</span>
+                    </div>
+                </div>
+
+                <!-- Direct Contact Buttons for Founder -->
+                <div class="flex flex-wrap items-center justify-center gap-4 pt-2">
+                    <a href="#contact" class="inline-flex items-center gap-2 px-8 py-3.5 rounded-full bg-brand-dark text-white font-medium text-sm hover:bg-brand-accent transition-colors shadow-md">
+                        <span>Connect with Malay</span>
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                    </a>
+                    <a href="https://www.instagram.com/asar_marketing_/" target="_blank" class="inline-flex items-center gap-2 px-8 py-3.5 rounded-full border border-brand-border text-brand-dark font-medium text-sm hover:bg-brand-soft transition-colors">
+                        <span>@asar_marketing_</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 9. WHAT WE DO (SERVICES) -->
+        <section id="services" class="py-28 bg-brand-bg relative">
+            <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+                <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6 reveal-on-scroll">
+                    <div class="space-y-2">
+                        <span class="text-xs font-bold uppercase tracking-widest text-brand-accent">OUR CORE CAPABILITIES</span>
+                        <h2 class="font-heading font-extrabold text-3xl sm:text-5xl text-brand-dark">
+                            Marketing Built Around Your Growth.
+                        </h2>
+                    </div>
+                    <p class="text-brand-muted max-w-md text-sm sm:text-base">
+                        Comprehensive digital marketing solutions designed with strategy, precision and creative excellence.
+                    </p>
+                </div>
+
+                <!-- Services Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Service 01 -->
+                    <div class="service-card p-8 bg-brand-surface rounded-2xl border border-brand-border hover:border-brand-accent transition-all duration-300 hover:shadow-lg space-y-6 flex flex-col justify-between reveal-on-scroll">
+                        <div class="space-y-4">
+                            <span class="text-3xl font-heading font-extrabold text-brand-accent/70 block">01</span>
+                            <h3 class="font-heading font-bold text-2xl text-brand-dark">Social Media Marketing</h3>
+                            <p class="text-brand-muted text-sm leading-relaxed">
+                                Strategic social media management designed to build visibility, trust and consistent audience engagement across key platforms.
+                            </p>
+                        </div>
+                        <ul class="text-xs font-medium text-brand-dark space-y-2 pt-4 border-t border-brand-border/60">
+                            <li class="flex items-center gap-2">✦ Content Calendar & Planning</li>
+                            <li class="flex items-center gap-2">✦ Community Growth & Engagement</li>
+                            <li class="flex items-center gap-2">✦ Audience Persona Targeting</li>
+                        </ul>
+                    </div>
+
+                    <!-- Service 02 -->
+                    <div class="service-card p-8 bg-brand-surface rounded-2xl border border-brand-border hover:border-brand-accent transition-all duration-300 hover:shadow-lg space-y-6 flex flex-col justify-between reveal-on-scroll">
+                        <div class="space-y-4">
+                            <span class="text-3xl font-heading font-extrabold text-brand-accent/70 block">02</span>
+                            <h3 class="font-heading font-bold text-2xl text-brand-dark">Content & Creative</h3>
+                            <p class="text-brand-muted text-sm leading-relaxed">
+                                Reels, social media creatives, campaign concepts, visual communication and content systems built around your brand personality.
+                            </p>
+                        </div>
+                        <ul class="text-xs font-medium text-brand-dark space-y-2 pt-4 border-t border-brand-border/60">
+                            <li class="flex items-center gap-2">✦ Short-Form Video & Reels</li>
+                            <li class="flex items-center gap-2">✦ Editorial Graphic Design</li>
+                            <li class="flex items-center gap-2">✦ Visual Brand Systems</li>
+                        </ul>
+                    </div>
+
+                    <!-- Service 03 -->
+                    <div class="service-card p-8 bg-brand-surface rounded-2xl border border-brand-border hover:border-brand-accent transition-all duration-300 hover:shadow-lg space-y-6 flex flex-col justify-between reveal-on-scroll">
+                        <div class="space-y-4">
+                            <span class="text-3xl font-heading font-extrabold text-brand-accent/70 block">03</span>
+                            <h3 class="font-heading font-bold text-2xl text-brand-dark">Performance Marketing</h3>
+                            <p class="text-brand-muted text-sm leading-relaxed">
+                                Meta and Google advertising campaigns designed around measurable business objectives, transparent budgets and ROI.
+                            </p>
+                        </div>
+                        <ul class="text-xs font-medium text-brand-dark space-y-2 pt-4 border-t border-brand-border/60">
+                            <li class="flex items-center gap-2">✦ Meta (Instagram/FB) Ads</li>
+                            <li class="flex items-center gap-2">✦ Google Search & Display Ads</li>
+                            <li class="flex items-center gap-2">✦ Campaign Optimization</li>
+                        </ul>
+                    </div>
+
+                    <!-- Service 04 -->
+                    <div class="service-card p-8 bg-brand-surface rounded-2xl border border-brand-border hover:border-brand-accent transition-all duration-300 hover:shadow-lg space-y-6 flex flex-col justify-between reveal-on-scroll">
+                        <div class="space-y-4">
+                            <span class="text-3xl font-heading font-extrabold text-brand-accent/70 block">04</span>
+                            <h3 class="font-heading font-bold text-2xl text-brand-dark">Lead Generation</h3>
+                            <p class="text-brand-muted text-sm leading-relaxed">
+                                Marketing systems designed to attract relevant prospects, capture high-intent leads and turn attention into enquiries.
+                            </p>
+                        </div>
+                        <ul class="text-xs font-medium text-brand-dark space-y-2 pt-4 border-t border-brand-border/60">
+                            <li class="flex items-center gap-2">✦ High-Intent Lead Funnels</li>
+                            <li class="flex items-center gap-2">✦ WhatsApp & Email Systems</li>
+                            <li class="flex items-center gap-2">✦ Qualifier Forms & Lead Capture</li>
+                        </ul>
+                    </div>
+
+                    <!-- Service 05 -->
+                    <div class="service-card p-8 bg-brand-surface rounded-2xl border border-brand-border hover:border-brand-accent transition-all duration-300 hover:shadow-lg space-y-6 flex flex-col justify-between reveal-on-scroll">
+                        <div class="space-y-4">
+                            <span class="text-3xl font-heading font-extrabold text-brand-accent/70 block">05</span>
+                            <h3 class="font-heading font-bold text-2xl text-brand-dark">Brand Strategy</h3>
+                            <p class="text-brand-muted text-sm leading-relaxed">
+                                Positioning, messaging, brand direction and communication strategy that differentiate your business in competitive markets.
+                            </p>
+                        </div>
+                        <ul class="text-xs font-medium text-brand-dark space-y-2 pt-4 border-t border-brand-border/60">
+                            <li class="flex items-center gap-2">✦ Market Positioning</li>
+                            <li class="flex items-center gap-2">✦ Core Brand Messaging</li>
+                            <li class="flex items-center gap-2">✦ Competitive Differentiation</li>
+                        </ul>
+                    </div>
+
+                    <!-- Service 06 -->
+                    <div class="service-card p-8 bg-brand-surface rounded-2xl border border-brand-border hover:border-brand-accent transition-all duration-300 hover:shadow-lg space-y-6 flex flex-col justify-between reveal-on-scroll">
+                        <div class="space-y-4">
+                            <span class="text-3xl font-heading font-extrabold text-brand-accent/70 block">06</span>
+                            <h3 class="font-heading font-bold text-2xl text-brand-dark">Website & Landing Pages</h3>
+                            <p class="text-brand-muted text-sm leading-relaxed">
+                                Modern, conversion-focused digital experiences designed to support marketing campaigns, showcase brand value and convert visitors.
+                            </p>
+                        </div>
+                        <ul class="text-xs font-medium text-brand-dark space-y-2 pt-4 border-t border-brand-border/60">
+                            <li class="flex items-center gap-2">✦ High-Converting Landing Pages</li>
+                            <li class="flex items-center gap-2">✦ Responsive Agency Websites</li>
+                            <li class="flex items-center gap-2">✦ UX & UI Optimization</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 10. WHY ASAR -->
+        <section class="py-28 bg-brand-surface border-y border-brand-border relative">
+            <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+                <div class="text-center max-w-2xl mx-auto mb-16 reveal-on-scroll">
+                    <span class="text-xs font-bold uppercase tracking-widest text-brand-accent">OUR PILLARS</span>
+                    <h2 class="font-heading font-extrabold text-3xl sm:text-5xl text-brand-dark mt-2">
+                        Why Asar?
+                    </h2>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Pillar 01 -->
+                    <div class="p-8 bg-brand-bg rounded-2xl border border-brand-border space-y-4 reveal-on-scroll">
+                        <span class="font-heading font-extrabold text-2xl text-brand-accent">01</span>
+                        <h3 class="font-heading font-bold text-xl text-brand-dark tracking-wide">STRATEGY FIRST</h3>
+                        <p class="text-brand-muted text-sm leading-relaxed">
+                            We understand the business, audience and goal before creating the campaign. No random posting.
+                        </p>
+                    </div>
+
+                    <!-- Pillar 02 -->
+                    <div class="p-8 bg-brand-bg rounded-2xl border border-brand-border space-y-4 reveal-on-scroll">
+                        <span class="font-heading font-extrabold text-2xl text-brand-accent">02</span>
+                        <h3 class="font-heading font-bold text-xl text-brand-dark tracking-wide">CREATIVE WITH PURPOSE</h3>
+                        <p class="text-brand-muted text-sm leading-relaxed">
+                            Every creative element has a reason behind it — designed to capture attention and convey message clearly.
+                        </p>
+                    </div>
+
+                    <!-- Pillar 03 -->
+                    <div class="p-8 bg-brand-bg rounded-2xl border border-brand-border space-y-4 reveal-on-scroll">
+                        <span class="font-heading font-extrabold text-2xl text-brand-accent">03</span>
+                        <h3 class="font-heading font-bold text-xl text-brand-dark tracking-wide">RESULTS MATTER</h3>
+                        <p class="text-brand-muted text-sm leading-relaxed">
+                            We focus on meaningful business outcomes, sales and brand perception — not vanity metrics.
+                        </p>
+                    </div>
+
+                    <!-- Pillar 04 -->
+                    <div class="p-8 bg-brand-bg rounded-2xl border border-brand-border space-y-4 reveal-on-scroll">
+                        <span class="font-heading font-extrabold text-2xl text-brand-accent">04</span>
+                        <h3 class="font-heading font-bold text-xl text-brand-dark tracking-wide">BUILT FOR YOUR BRAND</h3>
+                        <p class="text-brand-muted text-sm leading-relaxed">
+                            Every strategy is tailored to your specific business, target audience, budget and objective.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 11. OUR APPROACH -->
+        <section class="py-28 bg-brand-bg relative">
+            <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+                <div class="max-w-3xl mx-auto text-center space-y-6 mb-16 reveal-on-scroll">
+                    <span class="text-xs font-bold uppercase tracking-widest text-brand-accent">TAILORED STRATEGY</span>
+                    <h2 class="font-heading font-extrabold text-3xl sm:text-4xl lg:text-5xl text-brand-dark leading-tight">
+                        We Don't Believe in One-Size-Fits-All Marketing.
+                    </h2>
+                    <p class="text-brand-muted text-base sm:text-lg leading-relaxed">
+                        Every business has a different audience, personality, challenge and opportunity. That is why we build marketing strategies around the individual business rather than forcing every client into the same formula.
+                    </p>
+                </div>
+
+                <!-- Interactive Flow Horizontal Pipeline -->
+                <div class="reveal-on-scroll">
+                    <div class="p-8 bg-brand-surface rounded-2xl border border-brand-border shadow-md">
+                        <span class="text-xs font-bold uppercase tracking-widest text-brand-accent block mb-6 text-center">THE ASAR GROWTH PIPELINE</span>
+                        <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-4 items-center text-center">
+                            <div class="p-4 bg-brand-bg rounded-xl border border-brand-border">
+                                <span class="text-xs font-bold text-brand-accent block mb-1">STEP 1</span>
+                                <span class="font-heading font-bold text-sm text-brand-dark">Business</span>
+                            </div>
+                            <div class="p-4 bg-brand-bg rounded-xl border border-brand-border">
+                                <span class="text-xs font-bold text-brand-accent block mb-1">STEP 2</span>
+                                <span class="font-heading font-bold text-sm text-brand-dark">Audience</span>
+                            </div>
+                            <div class="p-4 bg-brand-bg rounded-xl border border-brand-border">
+                                <span class="text-xs font-bold text-brand-accent block mb-1">STEP 3</span>
+                                <span class="font-heading font-bold text-sm text-brand-dark">Strategy</span>
+                            </div>
+                            <div class="p-4 bg-brand-bg rounded-xl border border-brand-border">
+                                <span class="text-xs font-bold text-brand-accent block mb-1">STEP 4</span>
+                                <span class="font-heading font-bold text-sm text-brand-dark">Creative</span>
+                            </div>
+                            <div class="p-4 bg-brand-bg rounded-xl border border-brand-border">
+                                <span class="text-xs font-bold text-brand-accent block mb-1">STEP 5</span>
+                                <span class="font-heading font-bold text-sm text-brand-dark">Distribution</span>
+                            </div>
+                            <div class="p-4 bg-brand-bg rounded-xl border border-brand-border">
+                                <span class="text-xs font-bold text-brand-accent block mb-1">STEP 6</span>
+                                <span class="font-heading font-bold text-sm text-brand-dark">Optimization</span>
+                            </div>
+                            <div class="p-4 bg-brand-dark text-white rounded-xl col-span-2 md:col-span-1">
+                                <span class="text-xs font-bold text-brand-accent block mb-1">RESULT</span>
+                                <span class="font-heading font-bold text-sm text-white">Growth</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 12. PROCESS -->
+        <section id="process" class="py-28 bg-brand-surface border-y border-brand-border relative">
+            <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+                <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6 reveal-on-scroll">
+                    <div class="space-y-2">
+                        <span class="text-xs font-bold uppercase tracking-widest text-brand-accent">OUR METHODOLOGY</span>
+                        <h2 class="font-heading font-extrabold text-3xl sm:text-5xl text-brand-dark">
+                            The 5-Step Execution Process.
+                        </h2>
+                    </div>
+                    <p class="text-brand-muted max-w-md text-sm sm:text-base">
+                        From initial discovery to continuous scaling, how we turn marketing into predictable business growth.
+                    </p>
+                </div>
+
+                <div class="space-y-6">
+                    <!-- Step 01 -->
+                    <div class="p-8 bg-brand-bg rounded-2xl border border-brand-border flex flex-col md:flex-row items-start md:items-center justify-between gap-6 hover:border-brand-accent transition-colors reveal-on-scroll">
+                        <div class="flex items-center gap-6">
+                            <span class="font-heading font-extrabold text-3xl text-brand-accent">01</span>
+                            <div>
+                                <h3 class="font-heading font-bold text-xl text-brand-dark uppercase tracking-wide">DISCOVER</h3>
+                                <p class="text-brand-muted text-sm mt-1">Understand the business, market, audience and core growth goals.</p>
+                            </div>
+                        </div>
+                        <span class="text-xs font-mono px-4 py-1.5 rounded-full bg-brand-soft text-brand-dark font-medium">Phase 1 // Audit & Research</span>
+                    </div>
+
+                    <!-- Step 02 -->
+                    <div class="p-8 bg-brand-bg rounded-2xl border border-brand-border flex flex-col md:flex-row items-start md:items-center justify-between gap-6 hover:border-brand-accent transition-colors reveal-on-scroll">
+                        <div class="flex items-center gap-6">
+                            <span class="font-heading font-extrabold text-3xl text-brand-accent">02</span>
+                            <div>
+                                <h3 class="font-heading font-bold text-xl text-brand-dark uppercase tracking-wide">STRATEGIZE</h3>
+                                <p class="text-brand-muted text-sm mt-1">Build a clear marketing direction and channel architecture based on objective.</p>
+                            </div>
+                        </div>
+                        <span class="text-xs font-mono px-4 py-1.5 rounded-full bg-brand-soft text-brand-dark font-medium">Phase 2 // Architecture & Messaging</span>
+                    </div>
+
+                    <!-- Step 03 -->
+                    <div class="p-8 bg-brand-bg rounded-2xl border border-brand-border flex flex-col md:flex-row items-start md:items-center justify-between gap-6 hover:border-brand-accent transition-colors reveal-on-scroll">
+                        <div class="flex items-center gap-6">
+                            <span class="font-heading font-extrabold text-3xl text-brand-accent">03</span>
+                            <div>
+                                <h3 class="font-heading font-bold text-xl text-brand-dark uppercase tracking-wide">CREATE</h3>
+                                <p class="text-brand-muted text-sm mt-1">Develop content, campaign assets, visual communication and copy.</p>
+                            </div>
+                        </div>
+                        <span class="text-xs font-mono px-4 py-1.5 rounded-full bg-brand-soft text-brand-dark font-medium">Phase 3 // Content & Design Production</span>
+                    </div>
+
+                    <!-- Step 04 -->
+                    <div class="p-8 bg-brand-bg rounded-2xl border border-brand-border flex flex-col md:flex-row items-start md:items-center justify-between gap-6 hover:border-brand-accent transition-colors reveal-on-scroll">
+                        <div class="flex items-center gap-6">
+                            <span class="font-heading font-extrabold text-3xl text-brand-accent">04</span>
+                            <div>
+                                <h3 class="font-heading font-bold text-xl text-brand-dark uppercase tracking-wide">LAUNCH</h3>
+                                <p class="text-brand-muted text-sm mt-1">Put the strategy into action across designated social and ad channels.</p>
+                            </div>
+                        </div>
+                        <span class="text-xs font-mono px-4 py-1.5 rounded-full bg-brand-soft text-brand-dark font-medium">Phase 4 // Campaign Rollout</span>
+                    </div>
+
+                    <!-- Step 05 -->
+                    <div class="p-8 bg-brand-bg rounded-2xl border border-brand-border flex flex-col md:flex-row items-start md:items-center justify-between gap-6 hover:border-brand-accent transition-colors reveal-on-scroll">
+                        <div class="flex items-center gap-6">
+                            <span class="font-heading font-extrabold text-3xl text-brand-accent">05</span>
+                            <div>
+                                <h3 class="font-heading font-bold text-xl text-brand-dark uppercase tracking-wide">OPTIMIZE</h3>
+                                <p class="text-brand-muted text-sm mt-1">Measure performance, refine creative assets and continuously improve ROI.</p>
+                            </div>
+                        </div>
+                        <span class="text-xs font-mono px-4 py-1.5 rounded-full bg-brand-dark text-white font-medium">Phase 5 // Scaling & Growth</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 13. WORK / PORTFOLIO -->
+        <section id="work" class="py-28 bg-brand-bg relative">
+            <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+                <div class="text-center max-w-2xl mx-auto mb-12 space-y-3 reveal-on-scroll">
+                    <span class="text-xs font-bold uppercase tracking-widest text-brand-accent">CREATIVE WORK & CONCEPTS</span>
+                    <h2 class="font-heading font-extrabold text-3xl sm:text-5xl text-brand-dark">
+                        Selected Work
+                    </h2>
+                    <p class="font-serif italic text-xl text-brand-muted">
+                        “Ideas are easy. Execution creates impact.”
+                    </p>
+                </div>
+
+                <!-- Filter Category Tabs -->
+                <div class="flex flex-wrap items-center justify-center gap-2 sm:gap-4 mb-12 reveal-on-scroll">
+                    <button class="portfolio-filter-btn active px-5 py-2 rounded-full text-xs font-bold uppercase tracking-wider transition-all bg-brand-dark text-white" data-filter="all">All Projects</button>
+                    <button class="portfolio-filter-btn px-5 py-2 rounded-full text-xs font-bold uppercase tracking-wider transition-all bg-brand-surface text-brand-dark border border-brand-border hover:border-brand-dark" data-filter="social">Social Media</button>
+                    <button class="portfolio-filter-btn px-5 py-2 rounded-full text-xs font-bold uppercase tracking-wider transition-all bg-brand-surface text-brand-dark border border-brand-border hover:border-brand-dark" data-filter="branding">Branding</button>
+                    <button class="portfolio-filter-btn px-5 py-2 rounded-full text-xs font-bold uppercase tracking-wider transition-all bg-brand-surface text-brand-dark border border-brand-border hover:border-brand-dark" data-filter="performance">Performance Marketing</button>
+                    <button class="portfolio-filter-btn px-5 py-2 rounded-full text-xs font-bold uppercase tracking-wider transition-all bg-brand-surface text-brand-dark border border-brand-border hover:border-brand-dark" data-filter="web">Web Design</button>
+                </div>
+
+                <!-- Portfolio Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Concept Project 01 -->
+                    <div class="portfolio-item group bg-brand-surface rounded-2xl border border-brand-border overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 reveal-on-scroll" data-category="social">
+                        <div class="relative h-64 bg-brand-soft overflow-hidden p-6 flex flex-col justify-between">
+                            <div class="flex justify-between items-start">
+                                <span class="bg-brand-dark/90 text-brand-goldLight text-[10px] font-mono tracking-widest uppercase px-3 py-1 rounded-full font-bold">CONCEPT PROJECT</span>
+                                <span class="text-xs font-bold text-brand-dark bg-white px-3 py-1 rounded-full border border-brand-border">Social Media</span>
+                            </div>
+                            <div class="space-y-1">
+                                <span class="text-xs font-bold text-brand-accent tracking-widest uppercase">RESTAURANT & CAFÉ BRANDING</span>
+                                <h3 class="font-heading font-extrabold text-2xl text-brand-dark">Aura Artisan Bistro</h3>
+                            </div>
+                        </div>
+                        <div class="p-6 space-y-4">
+                            <p class="text-xs text-brand-muted leading-relaxed">
+                                Complete Instagram visual direction, reels strategy and local footfall campaign structure concept.
+                            </p>
+                            <div class="flex justify-between items-center text-xs font-bold text-brand-dark pt-2 border-t border-brand-border">
+                                <span>Agency Execution</span>
+                                <span class="text-brand-accent">Concept Blueprint ✦</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Concept Project 02 -->
+                    <div class="portfolio-item group bg-brand-surface rounded-2xl border border-brand-border overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 reveal-on-scroll" data-category="branding">
+                        <div class="relative h-64 bg-brand-goldLight/60 overflow-hidden p-6 flex flex-col justify-between">
+                            <div class="flex justify-between items-start">
+                                <span class="bg-brand-dark/90 text-brand-goldLight text-[10px] font-mono tracking-widest uppercase px-3 py-1 rounded-full font-bold">CONCEPT PROJECT</span>
+                                <span class="text-xs font-bold text-brand-dark bg-white px-3 py-1 rounded-full border border-brand-border">Branding</span>
+                            </div>
+                            <div class="space-y-1">
+                                <span class="text-xs font-bold text-brand-accent tracking-widest uppercase">REAL ESTATE & LUXURY HOUSING</span>
+                                <h3 class="font-heading font-extrabold text-2xl text-brand-dark">Vanguard Estate Collective</h3>
+                            </div>
+                        </div>
+                        <div class="p-6 space-y-4">
+                            <p class="text-xs text-brand-muted leading-relaxed">
+                                Premium luxury estate positioning, visual identity and high-ticket buyer communication strategy.
+                            </p>
+                            <div class="flex justify-between items-center text-xs font-bold text-brand-dark pt-2 border-t border-brand-border">
+                                <span>Agency Execution</span>
+                                <span class="text-brand-accent">Concept Blueprint ✦</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Concept Project 03 -->
+                    <div class="portfolio-item group bg-brand-surface rounded-2xl border border-brand-border overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 reveal-on-scroll" data-category="performance">
+                        <div class="relative h-64 bg-brand-soft overflow-hidden p-6 flex flex-col justify-between">
+                            <div class="flex justify-between items-start">
+                                <span class="bg-brand-dark/90 text-brand-goldLight text-[10px] font-mono tracking-widest uppercase px-3 py-1 rounded-full font-bold">CONCEPT PROJECT</span>
+                                <span class="text-xs font-bold text-brand-dark bg-white px-3 py-1 rounded-full border border-brand-border">Performance Marketing</span>
+                            </div>
+                            <div class="space-y-1">
+                                <span class="text-xs font-bold text-brand-accent tracking-widest uppercase">FITNESS & WELLNESS</span>
+                                <h3 class="font-heading font-extrabold text-2xl text-brand-dark">IronPulse Fitness Club</h3>
+                            </div>
+                        </div>
+                        <div class="p-6 space-y-4">
+                            <p class="text-xs text-brand-muted leading-relaxed">
+                                Meta Ads Lead Generation funnel, membership inquiry strategy and localized targeted ad creatives.
+                            </p>
+                            <div class="flex justify-between items-center text-xs font-bold text-brand-dark pt-2 border-t border-brand-border">
+                                <span>Agency Execution</span>
+                                <span class="text-brand-accent">Concept Blueprint ✦</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Concept Project 04 -->
+                    <div class="portfolio-item group bg-brand-surface rounded-2xl border border-brand-border overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 reveal-on-scroll" data-category="web">
+                        <div class="relative h-64 bg-brand-goldLight/60 overflow-hidden p-6 flex flex-col justify-between">
+                            <div class="flex justify-between items-start">
+                                <span class="bg-brand-dark/90 text-brand-goldLight text-[10px] font-mono tracking-widest uppercase px-3 py-1 rounded-full font-bold">CONCEPT PROJECT</span>
+                                <span class="text-xs font-bold text-brand-dark bg-white px-3 py-1 rounded-full border border-brand-border">Web Design</span>
+                            </div>
+                            <div class="space-y-1">
+                                <span class="text-xs font-bold text-brand-accent tracking-widest uppercase">HOTEL & RESORT</span>
+                                <h3 class="font-heading font-extrabold text-2xl text-brand-dark">Serene Haven Luxury Stay</h3>
+                            </div>
+                        </div>
+                        <div class="p-6 space-y-4">
+                            <p class="text-xs text-brand-muted leading-relaxed">
+                                High-converting boutique resort landing page design, direct booking call-to-action flow and mobile experience.
+                            </p>
+                            <div class="flex justify-between items-center text-xs font-bold text-brand-dark pt-2 border-t border-brand-border">
+                                <span>Agency Execution</span>
+                                <span class="text-brand-accent">Concept Blueprint ✦</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Concept Project 05 -->
+                    <div class="portfolio-item group bg-brand-surface rounded-2xl border border-brand-border overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 reveal-on-scroll" data-category="social">
+                        <div class="relative h-64 bg-brand-soft overflow-hidden p-6 flex flex-col justify-between">
+                            <div class="flex justify-between items-start">
+                                <span class="bg-brand-dark/90 text-brand-goldLight text-[10px] font-mono tracking-widest uppercase px-3 py-1 rounded-full font-bold">CONCEPT PROJECT</span>
+                                <span class="text-xs font-bold text-brand-dark bg-white px-3 py-1 rounded-full border border-brand-border">Social Media</span>
+                            </div>
+                            <div class="space-y-1">
+                                <span class="text-xs font-bold text-brand-accent tracking-widest uppercase">EDUCATION & EDTECH</span>
+                                <h3 class="font-heading font-extrabold text-2xl text-brand-dark">Apex Learning Academy</h3>
+                            </div>
+                        </div>
+                        <div class="p-6 space-y-4">
+                            <p class="text-xs text-brand-muted leading-relaxed">
+                                Educational Reels concept, student admission drive campaigns and trust-building social content architecture.
+                            </p>
+                            <div class="flex justify-between items-center text-xs font-bold text-brand-dark pt-2 border-t border-brand-border">
+                                <span>Agency Execution</span>
+                                <span class="text-brand-accent">Concept Blueprint ✦</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Concept Project 06 -->
+                    <div class="portfolio-item group bg-brand-surface rounded-2xl border border-brand-border overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 reveal-on-scroll" data-category="branding">
+                        <div class="relative h-64 bg-brand-goldLight/60 overflow-hidden p-6 flex flex-col justify-between">
+                            <div class="flex justify-between items-start">
+                                <span class="bg-brand-dark/90 text-brand-goldLight text-[10px] font-mono tracking-widest uppercase px-3 py-1 rounded-full font-bold">CONCEPT PROJECT</span>
+                                <span class="text-xs font-bold text-brand-dark bg-white px-3 py-1 rounded-full border border-brand-border">Branding</span>
+                            </div>
+                            <div class="space-y-1">
+                                <span class="text-xs font-bold text-brand-accent tracking-widest uppercase">HEALTHCARE & CLINIC</span>
+                                <h3 class="font-heading font-extrabold text-2xl text-brand-dark">Lumina Dental & Aesthetics</h3>
+                            </div>
+                        </div>
+                        <div class="p-6 space-y-4">
+                            <p class="text-xs text-brand-muted leading-relaxed">
+                                Patient trust building strategy, premium aesthetic clinic positioning and local search presence.
+                            </p>
+                            <div class="flex justify-between items-center text-xs font-bold text-brand-dark pt-2 border-t border-brand-border">
+                                <span>Agency Execution</span>
+                                <span class="text-brand-accent">Concept Blueprint ✦</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 14. CASE STUDIES -->
+        <section class="py-28 bg-brand-surface border-y border-brand-border relative">
+            <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+                <div class="text-center max-w-2xl mx-auto mb-16 space-y-3 reveal-on-scroll">
+                    <span class="text-xs font-bold uppercase tracking-widest text-brand-accent">CASE STUDY FRAMEWORK</span>
+                    <h2 class="font-heading font-extrabold text-3xl sm:text-5xl text-brand-dark">
+                        Strategic Case Studies
+                    </h2>
+                    <p class="text-brand-muted text-sm sm:text-base">
+                        How we structure campaigns from problem identification to execution and outcomes.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <!-- Concept Case Study 01 -->
+                    <div class="p-8 bg-brand-bg rounded-2xl border border-brand-border space-y-6 reveal-on-scroll">
+                        <div class="flex items-center justify-between border-b border-brand-border pb-4">
+                            <span class="text-xs font-bold text-brand-accent uppercase tracking-widest">CASE STUDY ARCHITECTURE // CONCEPT</span>
+                            <span class="text-[10px] font-mono font-bold uppercase bg-brand-soft px-3 py-1 rounded-full text-brand-dark">CONCEPT CASE STUDY</span>
+                        </div>
+
+                        <h3 class="font-heading font-bold text-2xl text-brand-dark">Local Business Footfall & Visibility Blueprint</h3>
+
+                        <div class="space-y-4 text-xs">
+                            <div>
+                                <span class="font-bold text-brand-dark uppercase tracking-wider block mb-1">THE CHALLENGE</span>
+                                <p class="text-brand-muted">A premium dining destination had high customer satisfaction but inconsistent weekday footfall and low social media discovery.</p>
+                            </div>
+                            <div>
+                                <span class="font-bold text-brand-dark uppercase tracking-wider block mb-1">THE STRATEGY</span>
+                                <p class="text-brand-muted">Reposition the restaurant's social presence from static food photography to engaging short-form reels focusing on dining experience and chef artistry.</p>
+                            </div>
+                            <div>
+                                <span class="font-bold text-brand-dark uppercase tracking-wider block mb-1">THE EXECUTION</span>
+                                <p class="text-brand-muted">12 monthly high-definition Reels, targeted hyper-local Instagram ad campaigns within 8km radius, and Google Business Profile optimization.</p>
+                            </div>
+                            <div>
+                                <span class="font-bold text-brand-dark uppercase tracking-wider block mb-1">THE RESULT</span>
+                                <p class="text-brand-accent font-semibold italic">Case study coming soon as client onboarding progresses.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Concept Case Study 02 -->
+                    <div class="p-8 bg-brand-bg rounded-2xl border border-brand-border space-y-6 reveal-on-scroll">
+                        <div class="flex items-center justify-between border-b border-brand-border pb-4">
+                            <span class="text-xs font-bold text-brand-accent uppercase tracking-widest">CASE STUDY ARCHITECTURE // CONCEPT</span>
+                            <span class="text-[10px] font-mono font-bold uppercase bg-brand-soft px-3 py-1 rounded-full text-brand-dark">CONCEPT CASE STUDY</span>
+                        </div>
+
+                        <h3 class="font-heading font-bold text-2xl text-brand-dark">High-Intent Lead Generation Engine</h3>
+
+                        <div class="space-y-4 text-xs">
+                            <div>
+                                <span class="font-bold text-brand-dark uppercase tracking-wider block mb-1">THE CHALLENGE</span>
+                                <p class="text-brand-muted">A specialized fitness studio needed consistent monthly qualified leads without relying on low-quality automated lead forms.</p>
+                            </div>
+                            <div>
+                                <span class="font-bold text-brand-dark uppercase tracking-wider block mb-1">THE STRATEGY</span>
+                                <p class="text-brand-muted">Design a 2-step direct WhatsApp lead funnel combined with Meta offer ads highlighting personalized consultation sessions.</p>
+                            </div>
+                            <div>
+                                <span class="font-bold text-brand-dark uppercase tracking-wider block mb-1">THE EXECUTION</span>
+                                <p class="text-brand-muted">High-converting Meta video ad creative + instant WhatsApp pre-filled qualifier link to filter high-intent prospects immediately.</p>
+                            </div>
+                            <div>
+                                <span class="font-bold text-brand-dark uppercase tracking-wider block mb-1">THE RESULT</span>
+                                <p class="text-brand-accent font-semibold italic">Case study coming soon as client onboarding progresses.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 15. CREATIVE SHOWCASE -->
+        <section class="py-28 bg-brand-bg relative">
+            <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+                <div class="text-center max-w-2xl mx-auto mb-16 space-y-3 reveal-on-scroll">
+                    <span class="text-xs font-bold uppercase tracking-widest text-brand-accent">VISUAL STANDARDS</span>
+                    <h2 class="font-heading font-extrabold text-3xl sm:text-5xl text-brand-dark">
+                        Creative Showcase
+                    </h2>
+                    <p class="text-brand-muted text-sm sm:text-base">
+                        A glimpse into our visual communication design aesthetics, campaign layouts and creative direction.
+                    </p>
+                </div>
+
+                <!-- Showcase Grid -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <!-- Showcase Item 1: Instagram Post Visual Concept -->
+                    <div class="p-6 bg-brand-surface rounded-2xl border border-brand-border space-y-4 shadow-sm hover:border-brand-accent transition-all reveal-on-scroll">
+                        <div class="h-56 bg-brand-goldLight rounded-xl border border-brand-border flex items-center justify-center p-6 text-center">
+                            <div class="space-y-2">
+                                <span class="text-xs font-bold text-brand-accent uppercase tracking-widest block">INSTAGRAM POST CONCEPT</span>
+                                <h4 class="font-heading font-bold text-xl text-brand-dark">“Brand Identity & Purpose”</h4>
+                                <p class="text-[11px] text-brand-muted">Editorial typographic social post with warm beige background and gold accent trim.</p>
+                            </div>
+                        </div>
+                        <div class="flex justify-between items-center text-xs font-bold text-brand-dark">
+                            <span>Instagram Carousel Creative</span>
+                            <span class="text-brand-accent">Brand Graphic ✦</span>
+                        </div>
+                    </div>
+
+                    <!-- Showcase Item 2: Reel Cover Visual Concept -->
+                    <div class="p-6 bg-brand-surface rounded-2xl border border-brand-border space-y-4 shadow-sm hover:border-brand-accent transition-all reveal-on-scroll">
+                        <div class="h-56 bg-brand-dark text-white rounded-xl border border-brand-border flex items-center justify-center p-6 text-center">
+                            <div class="space-y-2">
+                                <span class="text-xs font-bold text-brand-accent uppercase tracking-widest block">REELS THUMBNAIL CONCEPT</span>
+                                <h4 class="font-heading font-bold text-xl text-white">“3 Ways to Scale Visibility”</h4>
+                                <p class="text-[11px] text-gray-300">High-contrast video title cover designed for maximum feed click-through.</p>
+                            </div>
+                        </div>
+                        <div class="flex justify-between items-center text-xs font-bold text-brand-dark">
+                            <span>Reel Cover Thumbnail</span>
+                            <span class="text-brand-accent">Video Content ✦</span>
+                        </div>
+                    </div>
+
+                    <!-- Showcase Item 3: Ad Creative Concept -->
+                    <div class="p-6 bg-brand-surface rounded-2xl border border-brand-border space-y-4 shadow-sm hover:border-brand-accent transition-all reveal-on-scroll">
+                        <div class="h-56 bg-brand-soft rounded-xl border border-brand-border flex items-center justify-center p-6 text-center">
+                            <div class="space-y-2">
+                                <span class="text-xs font-bold text-brand-accent uppercase tracking-widest block">META AD CREATIVE</span>
+                                <h4 class="font-heading font-bold text-xl text-brand-dark">“Transform Your Presence”</h4>
+                                <p class="text-[11px] text-brand-muted">Direct-response ad creative layout focused on high conversion and clarity.</p>
+                            </div>
+                        </div>
+                        <div class="flex justify-between items-center text-xs font-bold text-brand-dark">
+                            <span>Performance Ad Layout</span>
+                            <span class="text-brand-accent">Paid Campaigns ✦</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 16. INDUSTRIES -->
+        <section class="py-28 bg-brand-surface border-y border-brand-border relative">
+            <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+                <div class="text-center max-w-2xl mx-auto mb-16 space-y-3 reveal-on-scroll">
+                    <span class="text-xs font-bold uppercase tracking-widest text-brand-accent">SECTOR ADAPTABILITY</span>
+                    <h2 class="font-heading font-extrabold text-3xl sm:text-5xl text-brand-dark">
+                        Built for Ambitious Businesses
+                    </h2>
+                    <p class="text-brand-muted text-sm sm:text-base">
+                        Tailored strategies for businesses across diverse consumer and B2B categories.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                    <div class="p-6 bg-brand-bg rounded-xl border border-brand-border text-center space-y-2 hover:border-brand-accent transition-colors reveal-on-scroll">
+                        <span class="text-2xl text-brand-accent font-bold block">✦</span>
+                        <h3 class="font-heading font-bold text-base text-brand-dark">Restaurants & Cafés</h3>
+                        <p class="text-xs text-brand-muted">Footfall, dining culture & social discovery.</p>
+                    </div>
+
+                    <div class="p-6 bg-brand-bg rounded-xl border border-brand-border text-center space-y-2 hover:border-brand-accent transition-colors reveal-on-scroll">
+                        <span class="text-2xl text-brand-accent font-bold block">✦</span>
+                        <h3 class="font-heading font-bold text-base text-brand-dark">Gyms & Fitness</h3>
+                        <p class="text-xs text-brand-muted">Membership leads & community building.</p>
+                    </div>
+
+                    <div class="p-6 bg-brand-bg rounded-xl border border-brand-border text-center space-y-2 hover:border-brand-accent transition-colors reveal-on-scroll">
+                        <span class="text-2xl text-brand-accent font-bold block">✦</span>
+                        <h3 class="font-heading font-bold text-base text-brand-dark">Hotels & Resorts</h3>
+                        <p class="text-xs text-brand-muted">Boutique positioning & direct bookings.</p>
+                    </div>
+
+                    <div class="p-6 bg-brand-bg rounded-xl border border-brand-border text-center space-y-2 hover:border-brand-accent transition-colors reveal-on-scroll">
+                        <span class="text-2xl text-brand-accent font-bold block">✦</span>
+                        <h3 class="font-heading font-bold text-base text-brand-dark">Real Estate</h3>
+                        <p class="text-xs text-brand-muted">High-ticket buyer positioning & leads.</p>
+                    </div>
+
+                    <div class="p-6 bg-brand-bg rounded-xl border border-brand-border text-center space-y-2 hover:border-brand-accent transition-colors reveal-on-scroll">
+                        <span class="text-2xl text-brand-accent font-bold block">✦</span>
+                        <h3 class="font-heading font-bold text-base text-brand-dark">Education</h3>
+                        <p class="text-xs text-brand-muted">Admission drives & student outreach.</p>
+                    </div>
+
+                    <div class="p-6 bg-brand-bg rounded-xl border border-brand-border text-center space-y-2 hover:border-brand-accent transition-colors reveal-on-scroll">
+                        <span class="text-2xl text-brand-accent font-bold block">✦</span>
+                        <h3 class="font-heading font-bold text-base text-brand-dark">Healthcare</h3>
+                        <p class="text-xs text-brand-muted">Clinics, aesthetics & patient trust.</p>
+                    </div>
+
+                    <div class="p-6 bg-brand-bg rounded-xl border border-brand-border text-center space-y-2 hover:border-brand-accent transition-colors reveal-on-scroll">
+                        <span class="text-2xl text-brand-accent font-bold block">✦</span>
+                        <h3 class="font-heading font-bold text-base text-brand-dark">Local Businesses</h3>
+                        <p class="text-xs text-brand-muted">Dominating local search & community loyalty.</p>
+                    </div>
+
+                    <div class="p-6 bg-brand-bg rounded-xl border border-brand-border text-center space-y-2 hover:border-brand-accent transition-colors reveal-on-scroll">
+                        <span class="text-2xl text-brand-accent font-bold block">✦</span>
+                        <h3 class="font-heading font-bold text-base text-brand-dark">Startups & Brands</h3>
+                        <p class="text-xs text-brand-muted">Launch campaigns & market positioning.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 17. NUMBERS SECTION -->
+        <section class="py-28 bg-brand-bg relative overflow-hidden">
+            <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-center reveal-on-scroll">
+                    <!-- Metric 1 -->
+                    <div class="p-8 bg-brand-surface rounded-2xl border border-brand-border shadow-sm space-y-2">
+                        <span class="font-heading font-extrabold text-5xl text-brand-dark block">1</span>
+                        <span class="text-xs font-bold text-brand-accent uppercase tracking-widest block">CORE GOAL</span>
+                        <p class="text-sm font-semibold text-brand-dark">Business Growth</p>
+                    </div>
+
+                    <!-- Metric 2 -->
+                    <div class="p-8 bg-brand-surface rounded-2xl border border-brand-border shadow-sm space-y-2">
+                        <span class="font-heading font-extrabold text-5xl text-brand-dark block">1</span>
+                        <span class="text-xs font-bold text-brand-accent uppercase tracking-widest block">PRINCIPLE</span>
+                        <p class="text-sm font-semibold text-brand-dark">Create Impact</p>
+                    </div>
+
+                    <!-- Metric 3 -->
+                    <div class="p-8 bg-brand-surface rounded-2xl border border-brand-border shadow-sm space-y-2">
+                        <span class="font-heading font-extrabold text-5xl text-brand-dark block">1</span>
+                        <span class="text-xs font-bold text-brand-accent uppercase tracking-widest block">APPROACH</span>
+                        <p class="text-sm font-semibold text-brand-dark">Strategy First</p>
+                    </div>
+
+                    <!-- Metric 4 -->
+                    <div class="p-8 bg-brand-dark text-white rounded-2xl border border-brand-dark shadow-md space-y-2">
+                        <span class="font-heading font-extrabold text-5xl text-brand-accent block">∞</span>
+                        <span class="text-xs font-bold text-gray-300 uppercase tracking-widest block">POSSIBILITIES</span>
+                        <p class="text-sm font-semibold text-white">Let's Build</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 18. FUTURE TESTIMONIAL SECTION -->
+        <section class="py-28 bg-brand-surface border-y border-brand-border relative">
+            <div class="max-w-4xl mx-auto px-6 sm:px-8 text-center space-y-8 reveal-on-scroll">
+                <span class="text-xs font-bold uppercase tracking-widest text-brand-accent">CLIENT PARTNERSHIPS</span>
+                <h2 class="font-heading font-extrabold text-3xl sm:text-5xl text-brand-dark">
+                    The Next Success Story Could Be Yours.
+                </h2>
+
+                <div class="p-10 bg-brand-bg rounded-2xl border border-dashed border-brand-accent/40 space-y-4 max-w-2xl mx-auto">
+                    <div class="w-12 h-12 mx-auto rounded-full bg-brand-goldLight flex items-center justify-center text-brand-accent font-bold">
+                        ✦
+                    </div>
+                    <p class="text-brand-muted text-base italic leading-relaxed">
+                        We are currently onboarding selected ambitious brands for our next growth quarter. Partner with Asar Marketing to craft a result-oriented marketing engine for your business.
+                    </p>
+                    <div class="pt-2">
+                        <a href="#contact" class="inline-flex items-center gap-2 text-xs font-bold text-brand-dark uppercase tracking-widest border-b border-brand-dark pb-1 hover:text-brand-accent hover:border-brand-accent transition-colors">
+                            Become Our Next Case Study &rarr;
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 19. FOUNDER MESSAGE -->
+        <section class="py-24 bg-brand-bg relative">
+            <div class="max-w-4xl mx-auto px-6 sm:px-8 text-center space-y-6 reveal-on-scroll">
+                <span class="text-xs font-bold uppercase tracking-widest text-brand-accent">DIRECTOR'S NOTE</span>
+                <h2 class="font-heading font-extrabold text-3xl sm:text-4xl text-brand-dark">
+                    A Note From Malay
+                </h2>
+
+                <div class="p-8 sm:p-12 bg-brand-surface rounded-2xl border border-brand-border shadow-md space-y-6">
+                    <p class="font-serif italic text-2xl sm:text-3xl text-brand-dark leading-relaxed">
+                        “I started Asar Marketing with one simple idea — marketing should create an impact that goes beyond numbers. It should make a business more visible, more memorable and more valuable.”
+                    </p>
+                    <div class="w-12 h-0.5 bg-brand-accent mx-auto"></div>
+                    <div class="space-y-1">
+                        <span class="font-serif text-2xl italic font-semibold text-brand-dark block">Malay Patel</span>
+                        <span class="text-xs text-brand-muted font-bold uppercase tracking-widest block">Founder & Director, Asar Marketing</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 20. CALL TO ACTION -->
+        <section class="py-28 bg-brand-dark text-white relative">
+            <div class="max-w-5xl mx-auto px-6 sm:px-8 text-center space-y-8 reveal-on-scroll">
+                <span class="text-xs font-bold uppercase tracking-widest text-brand-accent bg-white/10 px-4 py-1.5 rounded-full inline-block">
+                    TAKE THE NEXT STEP
+                </span>
+
+                <h2 class="font-heading font-extrabold text-4xl sm:text-6xl text-white leading-tight">
+                    Ready to Make an <span class="font-serif italic font-normal text-brand-accent">Impact?</span>
+                </h2>
+
+                <p class="text-lg sm:text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
+                    Tell us where your business is today. We'll help you identify where it can go next.
+                </p>
+
+                <div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
+                    <a href="#contact" class="w-full sm:w-auto px-8 py-4 rounded-full bg-brand-accent text-white font-semibold text-base hover:bg-brand-accentHover transition-all shadow-lg text-center">
+                        Start a Project
+                    </a>
+                    <a href="https://wa.me/917016425394" target="_blank" class="w-full sm:w-auto px-8 py-4 rounded-full border border-white/30 text-white font-medium text-base hover:bg-white/10 transition-all text-center flex items-center justify-center gap-2">
+                        <svg class="w-5 h-5 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+                        <span>Talk on WhatsApp</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 21. CONTACT SECTION -->
+        <section id="contact" class="py-28 bg-brand-bg relative">
+            <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16">
+                    <!-- Left Contact Info -->
+                    <div class="lg:col-span-5 space-y-8 reveal-on-scroll">
+                        <div class="space-y-3">
+                            <span class="text-xs font-bold uppercase tracking-widest text-brand-accent">GET IN TOUCH</span>
+                            <h2 class="font-heading font-extrabold text-3xl sm:text-5xl text-brand-dark leading-tight">
+                                Let's Start Something That Matters.
+                            </h2>
+                            <p class="text-brand-muted text-base leading-relaxed">
+                                Reach out to discuss your brand goals, strategic marketing requirements, or project opportunities directly with our founder.
+                            </p>
+                        </div>
+
+                        <!-- Founder Card Info -->
+                        <div class="p-6 bg-brand-surface rounded-2xl border border-brand-border space-y-4 shadow-sm">
+                            <div class="flex items-center gap-4">
+                                <div class="w-12 h-12 rounded-full bg-brand-goldLight flex items-center justify-center text-brand-accent font-bold text-lg border border-brand-accent/30 flex-shrink-0">
+                                    MP
+                                </div>
+                                <div>
+                                    <h4 class="font-heading font-bold text-lg text-brand-dark">Malay Patel</h4>
+                                    <p class="text-xs text-brand-muted uppercase font-semibold">Founder & Director — Asar Marketing</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Direct Contact List -->
+                        <div class="space-y-4">
+                            <!-- Email -->
+                            <a href="mailto:malaypatel0092@gmail.com" class="p-4 bg-brand-surface rounded-xl border border-brand-border flex items-center gap-4 hover:border-brand-accent transition-colors group">
+                                <div class="w-10 h-10 rounded-full bg-brand-soft flex items-center justify-center text-brand-dark group-hover:bg-brand-accent group-hover:text-white transition-colors">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 002-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                                </div>
+                                <div>
+                                    <span class="text-xs text-brand-muted block uppercase font-semibold">Email Us</span>
+                                    <span class="text-sm font-bold text-brand-dark">malaypatel0092@gmail.com</span>
+                                </div>
+                            </a>
+
+                            <!-- Phone / WhatsApp -->
+                            <a href="https://wa.me/917016425394" target="_blank" class="p-4 bg-brand-surface rounded-xl border border-brand-border flex items-center gap-4 hover:border-brand-accent transition-colors group">
+                                <div class="w-10 h-10 rounded-full bg-brand-soft flex items-center justify-center text-brand-dark group-hover:bg-emerald-600 group-hover:text-white transition-colors">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+                                </div>
+                                <div>
+                                    <span class="text-xs text-brand-muted block uppercase font-semibold">Phone / WhatsApp</span>
+                                    <span class="text-sm font-bold text-brand-dark">+91 7016425394</span>
+                                </div>
+                            </a>
+
+                            <!-- Instagram -->
+                            <a href="https://www.instagram.com/asar_marketing_/" target="_blank" class="p-4 bg-brand-surface rounded-xl border border-brand-border flex items-center gap-4 hover:border-brand-accent transition-colors group">
+                                <div class="w-10 h-10 rounded-full bg-brand-soft flex items-center justify-center text-brand-dark group-hover:bg-pink-600 group-hover:text-white transition-colors">
+                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                                </div>
+                                <div>
+                                    <span class="text-xs text-brand-muted block uppercase font-semibold">Instagram</span>
+                                    <span class="text-sm font-bold text-brand-dark">@asar_marketing_</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Right Form Column -->
+                    <div class="lg:col-span-7 reveal-on-scroll">
+                        <div class="p-8 sm:p-10 bg-brand-surface rounded-2xl border border-brand-border shadow-xl space-y-6">
+                            <div class="space-y-1">
+                                <h3 class="font-heading font-extrabold text-2xl text-brand-dark">Start a Project Enquiry</h3>
+                                <p class="text-xs text-brand-muted">Fill out the form below or trigger a direct WhatsApp enquiry.</p>
+                            </div>
+
+                            <form id="contact-form" class="space-y-5">
+                                <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                                    <div class="space-y-1.5">
+                                        <label for="form-name" class="text-xs font-bold text-brand-dark uppercase tracking-wider block">Full Name *</label>
+                                        <input type="text" id="form-name" required placeholder="e.g. Rahul Sharma" class="w-full px-4 py-3 rounded-xl bg-brand-bg border border-brand-border text-sm focus:outline-none focus:border-brand-accent transition-colors">
+                                    </div>
+                                    <div class="space-y-1.5">
+                                        <label for="form-business" class="text-xs font-bold text-brand-dark uppercase tracking-wider block">Business Name *</label>
+                                        <input type="text" id="form-business" required placeholder="e.g. Urban Cafe & Dining" class="w-full px-4 py-3 rounded-xl bg-brand-bg border border-brand-border text-sm focus:outline-none focus:border-brand-accent transition-colors">
+                                    </div>
+                                </div>
+
+                                <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                                    <div class="space-y-1.5">
+                                        <label for="form-email" class="text-xs font-bold text-brand-dark uppercase tracking-wider block">Email Address *</label>
+                                        <input type="email" id="form-email" required placeholder="rahul@example.com" class="w-full px-4 py-3 rounded-xl bg-brand-bg border border-brand-border text-sm focus:outline-none focus:border-brand-accent transition-colors">
+                                    </div>
+                                    <div class="space-y-1.5">
+                                        <label for="form-phone" class="text-xs font-bold text-brand-dark uppercase tracking-wider block">Phone / WhatsApp *</label>
+                                        <input type="tel" id="form-phone" required placeholder="+91 98765 43210" class="w-full px-4 py-3 rounded-xl bg-brand-bg border border-brand-border text-sm focus:outline-none focus:border-brand-accent transition-colors">
+                                    </div>
+                                </div>
+
+                                <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                                    <div class="space-y-1.5">
+                                        <label for="form-service" class="text-xs font-bold text-brand-dark uppercase tracking-wider block">Service Required</label>
+                                        <select id="form-service" class="w-full px-4 py-3 rounded-xl bg-brand-bg border border-brand-border text-sm focus:outline-none focus:border-brand-accent transition-colors">
+                                            <option value="Social Media Marketing">Social Media Marketing</option>
+                                            <option value="Content & Creative">Content & Creative</option>
+                                            <option value="Performance Marketing">Performance Marketing (Meta/Google Ads)</option>
+                                            <option value="Lead Generation">Lead Generation Systems</option>
+                                            <option value="Brand Strategy">Brand Strategy</option>
+                                            <option value="Website & Landing Pages">Website & Landing Pages</option>
+                                            <option value="Complete Agency Growth Package">Complete Growth Package</option>
+                                        </select>
+                                    </div>
+                                    <div class="space-y-1.5">
+                                        <label for="form-budget" class="text-xs font-bold text-brand-dark uppercase tracking-wider block">Budget Range</label>
+                                        <select id="form-budget" class="w-full px-4 py-3 rounded-xl bg-brand-bg border border-brand-border text-sm focus:outline-none focus:border-brand-accent transition-colors">
+                                            <option value="Growth Starter">Growth Starter</option>
+                                            <option value="Standard Retainer">Standard Agency Retainer</option>
+                                            <option value="Custom Project">Custom Project / Campaign Scale</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="space-y-1.5">
+                                    <label for="form-message" class="text-xs font-bold text-brand-dark uppercase tracking-wider block">Tell Us About Your Project *</label>
+                                    <textarea id="form-message" rows="4" required placeholder="Share your current marketing challenges, goals, or expectations..." class="w-full px-4 py-3 rounded-xl bg-brand-bg border border-brand-border text-sm focus:outline-none focus:border-brand-accent transition-colors"></textarea>
+                                </div>
+
+                                <div class="pt-2 flex flex-col sm:flex-row items-center gap-4">
+                                    <button type="submit" class="w-full sm:w-auto px-8 py-3.5 rounded-full bg-brand-dark text-white font-semibold text-sm hover:bg-brand-accent transition-colors flex items-center justify-center gap-2">
+                                        <span>Send Enquiry</span>
+                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                                    </button>
+
+                                    <button type="button" id="whatsapp-draft-btn" class="w-full sm:w-auto px-6 py-3.5 rounded-full border border-emerald-600 text-emerald-700 font-semibold text-sm hover:bg-emerald-50 transition-colors flex items-center justify-center gap-2">
+                                        <svg class="w-4 h-4 text-emerald-600" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+                                        <span>Send via WhatsApp</span>
+                                    </button>
+                                </div>
+
+                                <div id="form-feedback" class="hidden p-4 rounded-xl text-xs font-medium text-center"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 22. FOOTER -->
+    <footer class="bg-brand-dark text-white pt-20 pb-12 border-t border-brand-dark">
+        <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 pb-16 border-b border-gray-800">
+                <!-- Column 1: Brand Info -->
+                <div class="lg:col-span-2 space-y-6">
+                    <a href="#home" class="flex items-center gap-3">
+                        <span class="w-8 h-8 rounded-full border border-brand-accent/60 flex items-center justify-center text-brand-accent text-xs font-heading font-bold">✦</span>
+                        <span class="font-heading font-extrabold text-2xl tracking-tight text-white">
+                            ASAR<span class="text-brand-accent font-light ml-1.5 text-lg">MARKETING</span>
+                        </span>
+                    </a>
+                    <p class="text-gray-400 text-sm leading-relaxed max-w-sm">
+                        Marketing That Makes an Impact. Asar Marketing helps ambitious businesses build stronger brands, reach the right audience and turn attention into growth.
+                    </p>
+                    <div class="text-xs text-brand-accent font-semibold tracking-widest uppercase">
+                        FOUNDED BY MALAY PATEL
+                    </div>
+                </div>
+
+                <!-- Column 2: Quick Links -->
+                <div class="space-y-4">
+                    <h4 class="font-heading font-bold text-sm uppercase tracking-wider text-white">Navigation</h4>
+                    <ul class="space-y-2.5 text-xs text-gray-400">
+                        <li><a href="#home" class="hover:text-brand-accent transition-colors">Home</a></li>
+                        <li><a href="#about" class="hover:text-brand-accent transition-colors">About Us</a></li>
+                        <li><a href="#services" class="hover:text-brand-accent transition-colors">Services</a></li>
+                        <li><a href="#work" class="hover:text-brand-accent transition-colors">Selected Work</a></li>
+                        <li><a href="#process" class="hover:text-brand-accent transition-colors">Process</a></li>
+                        <li><a href="#founder" class="hover:text-brand-accent transition-colors">Founder</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Capabilities -->
+                <div class="space-y-4">
+                    <h4 class="font-heading font-bold text-sm uppercase tracking-wider text-white">Services</h4>
+                    <ul class="space-y-2.5 text-xs text-gray-400">
+                        <li><a href="#services" class="hover:text-brand-accent transition-colors">Social Media Marketing</a></li>
+                        <li><a href="#services" class="hover:text-brand-accent transition-colors">Content & Creative</a></li>
+                        <li><a href="#services" class="hover:text-brand-accent transition-colors">Performance Marketing</a></li>
+                        <li><a href="#services" class="hover:text-brand-accent transition-colors">Lead Generation</a></li>
+                        <li><a href="#services" class="hover:text-brand-accent transition-colors">Brand Strategy</a></li>
+                        <li><a href="#services" class="hover:text-brand-accent transition-colors">Web & Landing Pages</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4: Contact & Social -->
+                <div class="space-y-4">
+                    <h4 class="font-heading font-bold text-sm uppercase tracking-wider text-white">Connect</h4>
+                    <ul class="space-y-2.5 text-xs text-gray-400">
+                        <li>Malay Patel (Founder)</li>
+                        <li><a href="mailto:malaypatel0092@gmail.com" class="hover:text-brand-accent transition-colors">malaypatel0092@gmail.com</a></li>
+                        <li><a href="https://wa.me/917016425394" target="_blank" class="hover:text-brand-accent transition-colors">+91 7016425394</a></li>
+                        <li><a href="https://www.instagram.com/asar_marketing_/" target="_blank" class="hover:text-brand-accent transition-colors">@asar_marketing_</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Bottom Copyright Bar -->
+            <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-gray-500 gap-4">
+                <p>© 2026 ASAR MARKETING. All rights reserved.</p>
+                <p class="text-gray-400 font-mono text-[11px]">Marketing That Makes an Impact.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 24. MOBILE STICKY CTA BAR -->
+    <div class="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-brand-surface border-t border-brand-border p-3 px-4 flex items-center justify-between gap-3 shadow-2xl">
+        <a href="#contact" class="flex-1 py-3 rounded-full bg-brand-dark text-white font-semibold text-xs text-center">
+            Start a Project
+        </a>
+        <a href="https://wa.me/917016425394" target="_blank" class="px-5 py-3 rounded-full bg-emerald-600 text-white font-semibold text-xs flex items-center gap-1.5">
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+            <span>WhatsApp</span>
+        </a>
+    </div>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>
